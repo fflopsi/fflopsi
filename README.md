@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @flopsif
+- 👀 I’m interested in learning how to code better.
+- 🌱 I’m currently learning JavaScript and TypeScript.
+- 📫 How to reach me: florian.l.frauenfelder[at]gmail.com
