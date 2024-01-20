@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fflopsi
 - 👀 I’m interested in learning new things.
-- 🌱 I’m currently learning Jetpack Compose / Compose Multiplatform.
+- 🌱 I’m currently learning Nix and Jetpack Compose / Compose Multiplatform.
 - 💻 [My GitHub pages site](https://fflopsi.github.io)
 
 ### Some stats
