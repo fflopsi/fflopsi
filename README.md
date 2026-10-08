@@ -7,5 +7,5 @@
 ![Top Active Langs-Light](./profile/top-active-langs.svg#gh-light-mode-only)
 ![Stats-Dark](./profile/stats-dark.svg#gh-dark-mode-only)
 ![Stats-Light](./profile/stats.svg#gh-light-mode-only)
-![Top Langs-Dark](./profile/top-langs-dark.svg#gh-dark-mode-only)
-![Top Langs-Light](./profile/top-langs.svg#gh-light-mode-only)
+<!--![Top Langs-Dark](./profile/top-langs-dark.svg#gh-dark-mode-only)
+![Top Langs-Light](./profile/top-langs.svg#gh-light-mode-only)-->
