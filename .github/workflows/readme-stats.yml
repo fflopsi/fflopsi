@@ -15,6 +15,22 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Generate top active languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&exclude_repo=nixos-config,mensa,fflopsi.github.io,datenanalyse,nethz-nas,arch-customization,positions-plugin,croquet-tournament
+          path: profile/top-active-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top active languages card dark mode
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&exclude_repo=nixos-config,mensa,fflopsi.github.io,datenanalyse,nethz-nas,arch-customization,positions-plugin,croquet-tournament&theme=dark
+          path: profile/top-active-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
