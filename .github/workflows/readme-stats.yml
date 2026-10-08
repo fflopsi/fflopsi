@@ -19,7 +19,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&exclude_repo=nixos-config,mensa,fflopsi.github.io,datenanalyse,nethz-nas,arch-customization,positions-plugin,croquet-tournament
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&exclude_repo=nixos-config,mensa,fflopsi.github.io,datenanalyse,nethz-nas,arch-customization,positions-plugin,croquet-tournament&custom_title=Most%20Actively%20Used%20Languages
           path: profile/top-active-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&exclude_repo=nixos-config,mensa,fflopsi.github.io,datenanalyse,nethz-nas,arch-customization,positions-plugin,croquet-tournament&theme=dark
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&exclude_repo=nixos-config,mensa,fflopsi.github.io,datenanalyse,nethz-nas,arch-customization,positions-plugin,croquet-tournament&custom_title=Most%20Actively%20Used%20Languages&theme=dark
           path: profile/top-active-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -35,7 +35,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -43,7 +43,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=dark
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
